@@ -942,7 +942,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\derec\\Desktop\\task11\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\derec\\Documents\\Countries-API\\.next");
       return error;
     }
   };
